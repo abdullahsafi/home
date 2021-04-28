@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Abz",
+  firstName: "Abdullah",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Safi",
+  message: " Passionate about people and technology",
   icons: [
     {
       image: "fa-github",
@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Abdullah.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "",
 };
 
 // PROJECTS SECTION
