@@ -16,16 +16,16 @@ const mainBody = {
       url: "https://github.com/abdullahsafi",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/profile.php?id=100024636103941",
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/abdullah-safi-52381a177/",
     },
     {
       image: "fa-instagram",
       url: "https://www.instagram.com/abz.safi/",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/abdullah-safi-52381a177/",
+      image: "fa-facebook",
+      url: "https://www.facebook.com/profile.php?id=100024636103941",
     },
   ],
 };
@@ -47,10 +47,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  message:
-    "👋 Hi there, I’m Abdullah Safi\
-    📚 I’m currently studying a bachelor's of Advanced Computing and Science, majoring in Data science and Medical science (4th Year)\
-    📫 Please feel free to email me: safiabdullah235@hotmail.com",
+  message1: "👋 Hi there, I’m Abdullah Safi",
+  message2: "📚 I’m currently studying a bachelor's of Advanced Computing and Science, majoring in Data science and Medical science (4th Year)",
+  message3: "📫 Feel free to email me: safiabdullah235@hotmail.com",
   resume: "",
 };
 
