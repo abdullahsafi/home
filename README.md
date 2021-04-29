@@ -1,6 +1,12 @@
 <!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">Developer's Portfolio ✨</h1>
+</p>
 
-[![Site preview](/public/social-image.PNG)](https://abdullahsafi.github.io/)
+<p align="center">
+https://abdullahsafi.github.io/
+</p>
 
 ## Technology Stack 
 
@@ -14,7 +20,7 @@ Dependencies defined in package.json:
 
 ## Sharing 
 
-Project is open source, and was based on work by @hashirshoaeb that can be found [here](https://github.com/hashirshoaeb/home).
+Project is open source, and was based on the template created by @hashirshoaeb that can be found [here](https://github.com/hashirshoaeb/home).
 
 ## Prerequisites 
 
