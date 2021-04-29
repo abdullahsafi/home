@@ -48,7 +48,9 @@ const about = {
   show: true,
   heading: "About Me",
   message:
-    "Hi there, I’m Abdullah Safi👋 \n 📚 I’m currently studying a bachelor's of Advanced Computing and Science, majoring in Data science and Medical science (4th Year) \n 📫 Please feel free to email me @safiabdullah235@hotmail.com",
+    "👋 Hi there, I’m Abdullah Safi\
+    📚 I’m currently studying a bachelor's of Advanced Computing and Science, majoring in Data science and Medical science (4th Year)\
+    📫 Please feel free to email me: safiabdullah235@hotmail.com",
   resume: "",
 };
 
@@ -59,10 +61,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recently Committed Repositories",
+  heading: "Recently Updated Repositories",
   gitHubUsername: "abdullahsafi", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["media_server", "ThreeDigitPuzzle", "Boston_Housing_Dataset_Analysis", "Tennis_game"],
+  reposLength: 2,
 };
 
 // Leadership SECTION
@@ -126,17 +128,17 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Project Portfolio",
+  heading: "Experience",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Data Science Internship',// Here Add Company Name
+      companylogo: require('../assets/img/iag.png'),
+      date: 'Jun 2019 – Aug 2019',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Founder / Mobile Application Developer',
+      companylogo: require('../assets/img/cc3.png'),
+      date: 'Sep 2019 – Present',
     },
   ]
 }
