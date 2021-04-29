@@ -4,7 +4,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { mainBody, repos, about, skills, experiences } from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -58,14 +58,6 @@ const Navigation = React.forwardRef((props, ref) => {
               Projects
             </Nav.Link>
           )}
-          <Nav.Link
-            className="nav-link lead"
-            href={about.resume}
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Resume
-          </Nav.Link>
           {about.show && (
             <Nav.Link
               className="nav-link lead"

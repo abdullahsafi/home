@@ -27,10 +27,6 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/abdullah-safi-52381a177/",
     },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com",
-    },
   ],
 };
 
@@ -51,10 +47,8 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/headshot.png"),
-  imageSize: 375,
   message:
-    "My name is Abdullah.",
+    "Hi there, I’m Abdullah Safi👋 \n 📚 I’m currently studying a bachelor's of Advanced Computing and Science, majoring in Data science and Medical science (4th Year) \n 📫 Please feel free to email me @safiabdullah235@hotmail.com",
   resume: "",
 };
 
@@ -65,7 +59,7 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
+  heading: "Recently Committed Repositories",
   gitHubUsername: "abdullahsafi", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
@@ -101,23 +95,23 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "SQL", value: 95 },
+    { name: "R", value: 85 },
+    { name: "Machine Learning/AI", value: 80 },
+    { name: "Java", value: 80 },
+    { name: "Databases", value: 75 },
+    { name: "HTML/CSS", value: 60 },
+    { name: "Research", value: 90 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 85 },
     { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+    { name: "Problem Solving", value: 90 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Organization", value: 90 },
+    { name: "Creativity", value: 80 },
   ],
 };
 
@@ -131,8 +125,8 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Project Portfolio",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
@@ -149,7 +143,7 @@ const experiences = {
 
 // Blog SECTION
 // const blog = {
-//   show: false,
+//   show: true,
 // };
 
 export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
