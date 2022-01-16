@@ -7,7 +7,7 @@ const pictureLinkRegex = new RegExp(
   /[(http(s)?):(www.)?a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)/
 );
 
-const AboutMe = ({ heading, message1,message2,message3, link, imgSize, resume }) => {
+const AboutMe = ({ heading, message1,message2,message3,message4,message5, link, imgSize, resume }) => {
   const [profilePicUrl, setProfilePicUrl] = React.useState("");
   const [showPic, setShowPic] = React.useState(Boolean(link));
 
@@ -56,6 +56,10 @@ const AboutMe = ({ heading, message1,message2,message3, link, imgSize, resume })
                 <span>{message2}</span>
                 <br/>
                 <span>{message3}</span>
+                <br/>
+                <span>{message4}</span>
+                <br/>
+                <span>{message5}</span>
               </div>
             </p>
             {resume && (

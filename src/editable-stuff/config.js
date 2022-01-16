@@ -47,9 +47,13 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  message1: "👋 Hi there, I’m Abdullah Safi",
-  message2: "📚 I’m currently studying a bachelor's of Advanced Computing and Science, majoring in Data science and Medical science (4th Year)",
-  message3: "📫 Feel free to email me: safiabdullah235@hotmail.com",
+  imageLink: require("../editable-stuff/headshot2.jpg"),
+  imageSize: 375,
+  message1: "👋 Hi, I’m Abdullah Safi. Nice to meet you.",
+  message2: "",
+  message3: "I made the decision to go to the University of Sydney and study two degrees majoring in Data Science and Medical Science with the aspiration of combining the skills from both disciplines and helping people in the community by enhancing health outcomes. This site documents some of the projects I'm currently working on.",
+  message4: "",
+  message5: "📫 Feel free to email me: abdullah.safi@outlook.com.au or send a message on Linkedin!",
   resume: "",
 };
 
@@ -62,8 +66,8 @@ const repos = {
   show: true,
   heading: "Recently Updated Repositories",
   gitHubUsername: "abdullahsafi", //i.e."johnDoe12Gh"
-  specificRepos: ["media_server", "ThreeDigitPuzzle", "Boston_Housing_Dataset_Analysis", "Tennis_game"],
-  reposLength: 2,
+  specificRepos: [],
+  reposLength: 6,
 };
 
 // Leadership SECTION
@@ -92,27 +96,27 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 95 },
-    { name: "R", value: 85 },
-    { name: "Machine Learning/AI", value: 80 },
-    { name: "Java", value: 80 },
-    { name: "Databases", value: 75 },
-    { name: "HTML/CSS", value: 60 },
-    { name: "Research", value: 90 },
+    { name: "Python", value: 100 },
+    { name: "SQL", value: 100 },
+    { name: "R", value: 100 },
+    { name: "Machine Learning/AI", value: 100 },
+    { name: "Java", value: 100 },
+    { name: "Databases", value: 100 },
+    { name: "HTML/CSS", value: 100 },
+    { name: "Research", value: 100 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 85 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 90 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 90 },
-    { name: "Creativity", value: 80 },
+    { name: "Goal-Oriented", value: 100 },
+    { name: "Collaboration", value: 100 },
+    { name: "Positivity", value: 100 },
+    { name: "Adaptability", value: 100 },
+    { name: "Problem Solving", value: 100 },
+    { name: "Empathy", value: 100 },
+    { name: "Organization", value: 100 },
+    { name: "Creativity", value: 100 },
   ],
 };
 
@@ -122,11 +126,11 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "Please feel free to email me at",
-  email: "safiabdullah235@hotmail.com",
+  email: "abdullah.safi@outlook.com.au",
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Experience",
   data: [
     {
