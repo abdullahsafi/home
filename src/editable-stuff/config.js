@@ -47,7 +47,7 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/headshot2.jpg"),
+  imageLink: require("../editable-stuff/headshot3.jpg"),
   imageSize: 375,
   message1: "👋 Hi, I’m Abdullah Safi. Nice to meet you.",
   message2: "",
