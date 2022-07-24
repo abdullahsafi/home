@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Abdullah",
   middleName: "",
   lastName: "Safi",
-  message: " Passionate about people and technology",
+  message: " Passionate about people and technology.",
   icons: [
     {
       image: "fa-github",
@@ -20,12 +20,12 @@ const mainBody = {
       url: "https://www.linkedin.com/in/abdullah-safi-52381a177/",
     },
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/abz.safi/",
+      image: "fa-brands fa-medium",
+      url: "https://medium.com/@abdullah_safi",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/profile.php?id=100024636103941",
+      image: "fa-light fa-chess-king-piece",
+      url: "https://www.chess.com/member/legendaryabz",
     },
   ],
 };
